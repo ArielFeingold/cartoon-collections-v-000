@@ -4,8 +4,13 @@ def roll_call_dwarves(dwarf_name)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+    call_array = []
+    array.each do |element|
+      element = "#{element.capitalize}!"
+      call_array << element
+    end
+      call_array
 end
 
 def long_planeteer_calls# code an argument here
